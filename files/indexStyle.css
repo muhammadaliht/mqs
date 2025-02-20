@@ -23,9 +23,7 @@ font-size: 40px !important;
 h2{
 font-size: 36px !important;
 }
-p{
-    font-size: 15px !important;
-}
+
 
 ::-webkit-scrollbar {
   width: 8px; /* Width of the scrollbar */
