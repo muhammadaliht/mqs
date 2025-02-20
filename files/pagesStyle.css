@@ -1,0 +1,71 @@
+
+  .container{
+    padding-left: 0;
+    --bs-gutter-x: 0;
+}
+    .backgroundYellow{
+        background: #F9A600;
+    }
+    .textYellow{
+        color: #F9A600;   
+    }
+    .backgroundPurple{
+        background: #691F7E;
+    }
+    .textPurple{
+        color: #691F7E;   
+    }
+  
+ 
+::-webkit-scrollbar {
+  width: 8px; 
+  
+}
+
+::-webkit-scrollbar-track {
+  background: #f0f0f0;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #691F7E; 
+  border-radius: 5px; 
+  transition: background-color 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #520d63; 
+}
+
+::-webkit-scrollbar-thumb:active {
+  background-color: #3a0847; 
+}
+
+.registerForm > input,.registerForm > textarea,.registerForm > select{
+        border: 2px solid #f9a600 !important;
+}
+.registerForm > p{
+    font-weight: bold;
+}
+
+
+.iconHeader{
+    font-size: 31px !important;
+    color: #691f7e;
+}
+.subHeadingImage{
+    height: 60px;
+    display: block;
+}
+.section1Card{
+    border-right: 3px solid #691f7e;
+    border-bottom: 3px solid #691f7e;
+}
+.listDot{
+font-size: 9px !important;
+    margin-right: 5px;
+}
+.subheadingpage{
+    font-weight: 600;
+}
+
+ 

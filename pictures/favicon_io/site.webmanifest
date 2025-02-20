@@ -1,0 +1,3 @@
+function Prompt {
+    "$([char]27)[1;32mPS C:\Users\Ali>" + " $([char]27)[0m "
+}
