@@ -61,6 +61,8 @@ font-size: 36px !important;
         color: #691F7E;   
     }
 
+
+
 .chatIcon{
    position: fixed;
     left: 12px;
@@ -73,8 +75,8 @@ font-size: 36px !important;
     border-radius: 13px;
     z-index: 20;
 
-
 }
+
    
 .row{
     padding: 0;

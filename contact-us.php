@@ -22,7 +22,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <style>
     
@@ -166,7 +166,7 @@ if(isset($_POST['btn_submit'])) {
 }
        ?>
   <a href="https://wa.me/+447958910973" class="fa fa-whatsapp chatIcon animate__animated animate__infinite animate__delay-1s animate__pulse"></a>
-
+  
 <div class="col-lg-8 offset-lg-2 p-4" style="background: antiquewhite;
     border-radius: 49px;">
    
@@ -248,60 +248,57 @@ if(isset($_POST['btn_submit'])) {
 
 <!-- Ask A Question -->
 
-<div class="col-lg-12 py-5 px-3 px-lg-0 sec-14 mt-5">
-  <div class="row">
+    <div class="col-lg-12 py-5 px-3 px-lg-0 sec-14 mt-5">
+        <div class="row">
 
-  <div class="col-lg-5 offset-lg-1">
-<div class="col-lg-12">
-<h2 class="hdg24">Join Muhammadan Quran School Now and Take the First Step Towards Online Quran Learning!</h2>
-</div>
-<div class="col-lg-12 pt-3">
-<p class="text20">
-Become one of the millions of people studying the Quran worldwide. Take advantage of 3 free trials and many courses to learn the Quran from native Arab, Egyptian, and Pakistani best male and female Quran teachers and tutors. Our online Quran classes with Tajweed make it easy and flexible for students of all skill levels to learn how to read the Quran correctly.
-<br> <br>
-Learn the Quran online with Tajweed from the comfort of your own home with the help of qualified and experienced teachers. Don't skip this great opportunity to learn the Quran online with Tajweed.
-<br> <br>
-Muhammadan Qur'an School spans 35 countries—including the UK, USA, Australia, Canada, Europe, and many others! This is the place where you and your kids can learn about the Quran and Islam online without any fear. So why wait? Enrol yourself and your child today for a free trial class
-</p>
-</div>
-</div>
+            <div class="col-lg-5 offset-lg-1" data-aos="fade-right"   data-aos-easing="ease-in-out"  >
+                <div class="col-lg-12">
+                    <h2 class="hdg24">Join Muhammadan Quran School Now and Take the First Step Towards Online Quran Learning!</h2>
+                </div>
+                <div class="col-lg-12 pt-3">
+                    <p class="text20">
+                        Become one of the millions of people studying the Quran worldwide. Take advantage of 3 free trials and many courses to learn the Quran from native Arab, Egyptian, and Pakistani best male and female Quran teachers and tutors. Our online Quran classes with Tajweed make it easy and flexible for students of all skill levels to learn how to read the Quran correctly.
+                        <br> <br>
+                        Learn the Quran online with Tajweed from the comfort of your own home with the help of qualified and experienced teachers. Don't skip this great opportunity to learn the Quran online with Tajweed.
+                        <br> <br>
+                        Muhammadan Qur'an School spans 35 countries—including the UK, USA, Australia, Canada, Europe, and many others! This is the place where you and your kids can learn about the Quran and Islam online without any fear. So why wait? Enrol yourself and your child today for a free trial class
+                    </p>
+                </div>
+            </div>
 
-<div class="col-lg-4 col-10 offset-1 py-4 offset-lg-1 sec14-1 mt-5 mt-lg-0">
-  <div class="col-lg-12 my-4">
-  <p class="hdg25">Ask A Question</p>
-  </div>
-  <div class="col-lg-12">
-    <form>
-      <div class="row mx-2 p-0">
-          <div class="col mx-2 px-lg-0">
-            <input type="text" class="form-control col-6 input1" placeholder="Enter Name"  required>
-          </div>
-          <div class="col mx-2 px-0">
-            <input type="email" class="form-control col-6 input1" placeholder="Enter Email" required>
-          </div>
+            <div class="col-lg-4 col-10 offset-1 py-4 offset-lg-1 sec14-1 mt-5 mt-lg-0" data-aos="zoom-in-left"   data-aos-easing="ease-in-out"  >
+                <div class="col-lg-12 my-4">
+                    <p class="hdg25">Ask A Question</p>
+                </div>
+                <div class="col-lg-12">
+                    <form>
+                        <div class="row mx-2 p-0">
+                            <div class="col mx-2 px-lg-0">
+                                <input type="text" class="form-control col-6 input1" placeholder="Name" required>
+                            </div>
+                            <div class="col mx-2 px-0">
+                                <input type="email" class="form-control col-6 input1" placeholder="Email" required>
+                            </div>
+                        </div>
+                        <div class="row  my-4 mx-2 p-0">
+                            <div class="col mx-2 px-lg-0">
+                                <input type="text" class="form-control col-6 input1" placeholder="Number" required>
+                            </div>
+                            <div class="col mx-2 px-0">
+                                <input type="text" class="form-control col-6 input1" placeholder="Country" required>
+                            </div>
+                        </div>
+                        <div class="mx-3 p-lg-0">
+                            <textarea placeholder="Message" class="form-control col-12 input2" required></textarea>
+                        </div>
+                        <div class="col-12 my-4">
+                            <input type="submit" value="Submit" class="btn col-10 offset-1 btn4">
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
-        <div class="row  my-4 mx-2 p-0">
-          <div class="col mx-2 px-lg-0">
-            <input type="text" class="form-control col-6 input1" placeholder="Phone Number" required>
-          </div>
-          <div class="col mx-2 px-0">
-            <input type="text" class="form-control col-6 input1" placeholder="Country" required>
-          </div>
-        </div>
-        <div class="mx-3 p-lg-0">
-          <textarea placeholder="Message" class="form-control col-12 input2" required></textarea>
-        </div>
-        
-        
-        <div class="col-12 my-4">
-          <input type="submit" value="Submit" class="btn col-10 offset-1 btn4">
-        </div>
-  </form>
-  </div>
-  </div>
-  </div>
-</div>            
-        
+    </div>
         
   <!--footer-->
   <footer class="text-white" style="background-color: black" >
@@ -407,6 +404,11 @@ Muhammadan Qur'an School spans 35 countries—including the UK, USA, Australia, 
 <script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>
 <script src='https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js'></script>
 <script src="files/NavbarScript.js"></script> 
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+    
     
       <script>
 if ( window.history.replaceState ) {

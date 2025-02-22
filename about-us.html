@@ -14,12 +14,13 @@
 <link rel="stylesheet" href="files/bootstrap.min.css">
 <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css'>
 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css'>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.1/assets/owl.carousel.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.1/assets/owl.theme.default.min.css">
 <link rel="stylesheet" href="files/NavbarStyle.css">
 <link rel="stylesheet" href="files/pagesStyle.css">
 <link rel="stylesheet" href="files/SliderStyle.css">
-<link rel="stylesheet" href="files/owlCarousel-style.css">
+  <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">  
 <link rel="stylesheet" href="files/indexStyle.css">
 <link rel="stylesheet" href="files/font_os/css/font-awesome.min.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -28,7 +29,15 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
    
     <style>
-      
+           .owl-carousel .item img {
+            width: 100%;
+            height: 208px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .owl-theme .owl-dots .owl-dot span {
+    width: 24px;
+        }
     </style>
 
    
@@ -104,17 +113,17 @@
 <div class="container my-4 px-3">
   <div class="row">
   
-  <div class="col-lg offset-lg-1">
-      <h1 class="hdg1">Your Trusted Platform for Quran Lessons Online: About Muhammadan Quran School</h1>
+  <div class="col-lg offset-lg-1 ">
+      <h1 class="hdg1 animate__animated animate__fadeInUp">Your Trusted Platform for Quran Lessons Online: About Muhammadan Quran School</h1>
       <div class="col-lg-12 my-5" style="position: relative;">
           <div class="row">
             
-             <div class="col-lg text-center sec10-2 my-3 section1Card">
+             <div class="col-lg text-center sec10-2 my-3 section1Card animate__animated animate__zoomIn animate__delay-1s">
                  <i class="fa fa-users iconHeader"></i>
                  <p style="font-weight: bold;">1 on 1</p>
                  <p>Class Structure</p>
              </div>
-              <div class="col-lg text-center sec10-2 mx-lg-4 my-3 section1Card">
+              <div class="col-lg text-center sec10-2 mx-lg-4 my-3 section1Card animate__animated animate__zoomIn animate__delay-1s">
                  <i class="fa fa-user iconHeader"></i><i class="fa fa-user iconHeader"></i>
                  <p style="font-weight: bold;">Male/Female</p>
                  <p>Teachers</p>
@@ -123,24 +132,26 @@
           </div>
           
             <div class="row">
-             <div class="col-lg text-center sec10-2 my-3 section1Card">
+             <div class="col-lg text-center sec10-2 my-3 section1Card animate__animated animate__zoomIn animate__delay-1s">
                  <i class="fa fa-clock iconHeader"></i>
                  <p style="font-weight: bold;">24/7</p>
                  <p>Schedule</p>
              </div>
-              <div class="col-lg text-center sec10-2 mx-lg-4 my-3 section1Card">
+              <div class="col-lg text-center sec10-2 mx-lg-4 my-3 section1Card animate__animated animate__zoomIn animate__delay-1s">
                  <i class="fa fa-user iconHeader"></i>
                  <p style="font-weight: bold;">1320+</p>
                  <p>Registered Students</p>
              </div>
               
           </div>
+            <a href="#" class="fa fa-arrow-up" style=" position: fixed; right: 12px; bottom: 22px; color: #691f7e; background: #f9a600; font-size: 31px !important; box-sizing: border-box; padding: 9px 13px; border-radius: 13px; z-index: 20;"></a>
            <a href="https://wa.me/+447958910973" class="fa fa-whatsapp chatIcon animate__animated animate__infinite animate__delay-1s animate__pulse"></a>
+          
       </div>
   </div>
            
   <div class="col-lg d-flex justify-content-center">
-      <img src="pictures/learn-quran-online-USA-UK.jpeg" class="imgSec-1 img-fluid" alt="">
+      <img src="pictures/learn-quran-online-USA-UK.jpeg" class="imgSec-1 img-fluid animate__animated animate__fadeInUp" alt="">
   </div>
             
   </div> 
@@ -465,68 +476,31 @@ We make sure that you or your child can learn the Quran whenever it's best for y
 
 
 <!-- Section-8-TESTIMONIAL -->
-
-
-<div class="container px-3 my-5">
-  <h2 class="hdg22">What Our Students Say About Us</h2>
+<div  class="container p-4" >
+      <h2 class="hdg22">What Our Students Say About Us</h2>
+      
+        <div class="container mt-5">
+        <div class="owl-carousel owl-theme">
+           <a href="https://youtu.be/CPZavHG9KbE?si=tyN_stVe9wn573jP" target="_blank">
+            <div class="item"><img src="pictures/Testimonial-1.jpg" alt="Image 1"></div>
+            </a>
+            <a href="https://youtu.be/5cZLg7tYz_A?si=lD_AnOrLjLchEJFM" target="_blank">
+            <div class="item"><img src="pictures/Testimonial-2.jpg" alt="Image 2"></div>
+            </a>
+            <a href="https://youtu.be/s__90WoATi8?si=sO0pRKCRC7d6QeqX" target="_blank">
+            <div class="item"><img src="pictures/Testimonial-3.jpg" alt="Image 3"></div>
+            </a>
+            <a href="https://youtu.be/nMl1NSOS_KE?si=CuGOCquPBWJEVdNW" target="_blank">
+            <div class="item"><img src="pictures/Testimonial-4.jpg" alt="Image 4"></div>
+            </a>
+            <a href="https://youtu.be/TaYRfgxOsXk?si=45beSjNwLBACyedJ" target="_blank">
+            <div class="item"><img src="pictures/Testimonial-5.jpg" alt="Image 5"></div>
+            </a>
+        </div>
+    </div>
+      
+      
   </div>
-
-
-<section class="testimonials px-3">
-  <div class="container">
-      <div class="row">
-          <div class="col-sm-12">
-              <div id="customers-testimonials" class="owl-carousel">
-                  <!--TESTIMONIAL 1 -->
-                  <div class="item">
-                      <div class="shadow-effect">
-<iframe class="col-12 embed-responsive-item img2sec-12" height="250" src="https://www.youtube.com/embed/5cZLg7tYz_A?si=_4Y4I107XojuG9Dw" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                      
-                      </div>
-                  </div>
-                  <!--END OF TESTIMONIAL 1 -->
-                  <!--TESTIMONIAL 2 -->
-                  <div class="item">
-                      <div class="shadow-effect">
-<iframe class="col-12 embed-responsive-item img2sec-12" height="250" src="https://www.youtube.com/embed/CPZavHG9KbE?si=cWyApW8JEyb5tXmF" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                      
-                      </div>
-                  </div>
-                  <!--END OF TESTIMONIAL 2 -->
-                  <!--TESTIMONIAL 3 -->
-                  <div class="item">
-                      <div class="shadow-effect">
-<iframe class="col-12 embed-responsive-item img2sec-12" height="250" src="https://www.youtube.com/embed/nMl1NSOS_KE?si=x5BIqhqMfq7GhF0b" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                      
-                      </div>
-                  </div>
-                  <!--END OF TESTIMONIAL 3 -->
-                  <!--TESTIMONIAL 4 -->
-                  <div class="item">
-                      <div class="shadow-effect">
-<iframe class="col-12 embed-responsive-item img2sec-12" height="250" src="https://www.youtube.com/embed/r2ENfX9Tf-c?si=oJ1J1Oo2CjVKPNMU" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                      
-                      </div>
-                  </div>
-                  <!--END OF TESTIMONIAL 4 -->
-                  <!--TESTIMONIAL 5 -->
-                  <div class="item">
-                      <div class="shadow-effect">
-<iframe class="col-12 embed-responsive-item img2sec-12" height="250" src="https://www.youtube.com/embed/s__90WoATi8?si=MZKvD9w7CeKkIq4l" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                       
-                      </div>
-                  </div>
-                  <!--END OF TESTIMONIAL 5 -->
-
-
-              </div>
-
-          </div>
-      </div>
-  </div>
-  
-  </section>
-
-<div class="col-lg-4 offset-lg-4 mx-3 mx-lg-5">
-     <a href="#" class="btn btn-lg btn1 mx-2 mx-0" style="font-size: 15px; background: #691f7e; color: white;">Get Free Trial</a>
-</div>
-<div class="col-12" style="height: 40px;"></div> 
-
 
 <!--line divider-->
 <div class="container px-5">
@@ -601,12 +575,10 @@ We make sure that you or your child can learn the Quran whenever it's best for y
 
 <!-- FAQs Section-13 -->
 
-<div class="container my-4 px-3 py-5">
-  <div class="col-lg-10 offset-lg-1">
- <h2 class="hdg23">Important FAQs Before Starting <br> Online Quran Learning</h2>
-  </div>
+<div class="container p-4">
 
-  
+ <h2 class="hdg23">Important FAQs Before Starting <br> Online Quran Learning</h2>
+
   <div class="accordion accordion-flush" id="accordionFlushExample1">
     <div class="row">
       <div class="col-lg-6">
@@ -776,57 +748,57 @@ Masnoon Islamic Duas & 6 Kalmay
 
 <!-- Section-14-Ask A Question -->
 
-<div class="col-lg-12 py-5 px-3 px-lg-0 sec-14 mt-5">
-  <div class="row">
+    <div class="col-lg-12 py-5 px-3 px-lg-0 sec-14 mt-5">
+        <div class="row">
 
-  <div class="col-lg-5 offset-lg-1">
-<div class="col-lg-12">
-<h2 class="hdg24">Join Muhammadan Quran School Now and Take the First Step Towards Online Quran Learning!</h2>
-</div>
-<div class="col-lg-12 pt-3">
-<p class="text20">
-Become one of the millions of people studying the Quran worldwide. Take advantage of 3 free trials and many courses to learn the Quran from native Arab, Egyptian, and Pakistani best male and female Quran teachers and tutors. Our online Quran classes with Tajweed make it easy and flexible for students of all skill levels to learn how to read the Quran correctly.
-<br> <br>
-Learn the Quran online with Tajweed from the comfort of your own home with the help of qualified and experienced teachers. Don't skip this great opportunity to learn the Quran online with Tajweed.
-<br> <br>
-Muhammadan Qur'an School spans 35 countries—including the UK, USA, Australia, Canada, Europe, and many others! This is the place where you and your kids can learn about the Quran and Islam online without any fear. So why wait? Enrol yourself and your child today for a free trial class
-</p>
-</div>
-</div>
+            <div class="col-lg-5 offset-lg-1" data-aos="fade-right"   data-aos-easing="ease-in-out"  >
+                <div class="col-lg-12">
+                    <h2 class="hdg24">Join Muhammadan Quran School Now and Take the First Step Towards Online Quran Learning!</h2>
+                </div>
+                <div class="col-lg-12 pt-3">
+                    <p class="text20">
+                        Become one of the millions of people studying the Quran worldwide. Take advantage of 3 free trials and many courses to learn the Quran from native Arab, Egyptian, and Pakistani best male and female Quran teachers and tutors. Our online Quran classes with Tajweed make it easy and flexible for students of all skill levels to learn how to read the Quran correctly.
+                        <br> <br>
+                        Learn the Quran online with Tajweed from the comfort of your own home with the help of qualified and experienced teachers. Don't skip this great opportunity to learn the Quran online with Tajweed.
+                        <br> <br>
+                        Muhammadan Qur'an School spans 35 countries—including the UK, USA, Australia, Canada, Europe, and many others! This is the place where you and your kids can learn about the Quran and Islam online without any fear. So why wait? Enrol yourself and your child today for a free trial class
+                    </p>
+                </div>
+            </div>
 
-<div class="col-lg-4 col-10 offset-1 py-4 offset-lg-1 sec14-1 mt-5 mt-lg-0">
-  <div class="col-lg-12 my-4">
-  <p class="hdg25">Ask A Question</p>
-  </div>
-  <div class="col-lg-12">
-    <form>
-      <div class="row mx-2 p-0">
-          <div class="col mx-2 px-lg-0">
-            <input type="text" class="form-control col-6 input1" placeholder="Enter Name"  required>
-          </div>
-          <div class="col mx-2 px-0">
-            <input type="email" class="form-control col-6 input1" placeholder="Enter Email" required>
-          </div>
+            <div class="col-lg-4 col-10 offset-1 py-4 offset-lg-1 sec14-1 mt-5 mt-lg-0" data-aos="zoom-in-left"   data-aos-easing="ease-in-out"  >
+                <div class="col-lg-12 my-4">
+                    <p class="hdg25">Ask A Question</p>
+                </div>
+                <div class="col-lg-12">
+                    <form>
+                        <div class="row mx-2 p-0">
+                            <div class="col mx-2 px-lg-0">
+                                <input type="text" class="form-control col-6 input1" placeholder="Name" required>
+                            </div>
+                            <div class="col mx-2 px-0">
+                                <input type="email" class="form-control col-6 input1" placeholder="Email" required>
+                            </div>
+                        </div>
+                        <div class="row  my-4 mx-2 p-0">
+                            <div class="col mx-2 px-lg-0">
+                                <input type="text" class="form-control col-6 input1" placeholder="Number" required>
+                            </div>
+                            <div class="col mx-2 px-0">
+                                <input type="text" class="form-control col-6 input1" placeholder="Country" required>
+                            </div>
+                        </div>
+                        <div class="mx-3 p-lg-0">
+                            <textarea placeholder="Message" class="form-control col-12 input2" required></textarea>
+                        </div>
+                        <div class="col-12 my-4">
+                            <input type="submit" value="Submit" class="btn col-10 offset-1 btn4">
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
-        <div class="row  my-4 mx-2 p-0">
-          <div class="col mx-2 px-lg-0">
-            <input type="text" class="form-control col-6 input1" placeholder="Phone Number" required>
-          </div>
-          <div class="col mx-2 px-0">
-            <input type="text" class="form-control col-6 input1" placeholder="Country" required>
-          </div>
-        </div>
-        <div class="mx-3 p-lg-0">
-          <textarea placeholder="Message" class="form-control col-12 input2" required></textarea>
-        </div>
-        <div class="col-12 my-4">
-          <input type="submit" value="Submit" class="btn col-10 offset-1 btn4">
-        </div>
-  </form>
-  </div>
-  </div>
-  </div>
-</div>            
+    </div>    
         
         
   <!--footer-->
@@ -932,8 +904,14 @@ Muhammadan Qur'an School spans 35 countries—including the UK, USA, Australia, 
 </script><script  src="./script.js"></script>
 <script src="files/SliderScript.js"></script> 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.1/owl.carousel.min.js"></script>
-<script src="files/owlCarousel-script.js"></script>
+          <!-- Owl Carousel JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+   <script src="files/owlCarousel.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+    
 
     </body>
 </html>
