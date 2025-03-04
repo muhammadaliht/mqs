@@ -36,7 +36,7 @@
    <div class="row">
    
    <div class="col-lg d-none d-lg-block d-md-block d-xl-block">
-    <p class="col-lg"><a href="mailto:info@muhammadanquranschool.com " target="_blank" class="topbar">info@muhammadanquranschool.com</a></p>   
+    <p class="col-lg"><a href="mailto:muhammadanquranschool@gmail.com " target="_blank" class="topbar">muhammadanquranschool@gmail.com</a></p>   
    </div>
    
    <div class="col-lg text-center">
